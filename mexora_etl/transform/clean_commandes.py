@@ -46,7 +46,7 @@ def transform_commandes(df: pd.DataFrame, regions_df: pd.DataFrame) -> pd.DataFr
     }
     df['statut'] = df['statut'].replace(mapping_statuts)
     invalides = ~df['statut'].isin(['livré', 'annulé', 'en_cours', 'retourné'])
-    logging.warning(f"[TRANSFORM] R4 statuts: {invalides.sum()} valeurs non reconnues → 'inconnu'")
+    df.loc[:, 'date_commande'] = pd.to_datetime(df['date_commande'], errors='coerce')
     df.loc[invalides, 'statut'] = 'inconnu'
 
     # R5 — Quantités invalides

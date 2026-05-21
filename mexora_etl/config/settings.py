@@ -1,16 +1,23 @@
 import os
+import urllib.parse
 from dotenv import load_dotenv
 
 load_dotenv()
 
-# Database configuration
 DB_USER = os.getenv('DB_USER', 'postgres')
-DB_PASS = os.getenv('DB_PASS', 'postgres')
+# Hna k-n-codiw l-password bach i-qbel dik @
+DB_PASS = urllib.parse.quote_plus(os.getenv('DB_PASS', 'najwa@123')) 
 DB_HOST = os.getenv('DB_HOST', 'localhost')
 DB_PORT = os.getenv('DB_PORT', '5432')
 DB_NAME = os.getenv('DB_NAME', 'mexora_dwh')
 
-DATABASE_URL = f"postgresql://{DB_USER}:{DB_PASS}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
+
+# Dak l-password li fih @ khassu i-t-codé
+password = "najwa@123" 
+safe_password = urllib.parse.quote_plus(password)
+
+# Daba l-URL ghadi i-koun s-hih 100%
+DATABASE_URL = f"postgresql://postgres:{safe_password}@localhost:5432/mexora_dwh"
 
 # File paths
 DATA_DIR = 'mexora_etl/data'
