@@ -72,6 +72,10 @@ Ce projet implémente un pipeline ETL complet pour transformer les données opé
 Les données sont prêtes pour être importées dans Power BI. Vous trouverez les fichiers CSV nettoyés et structurés en schéma en étoile dans le dossier :
 👉 `export_powerbi/`
 
+## 📐 Modélisation des données
+Le projet utilise un **Schéma en Étoile (Star Schema)** pour optimiser les analyses :
+
+![Star Schema](./star_schema.png)
 ### Fichiers inclus :
 - `fait_ventes_transformed.csv` : Table de faits centrale.
 - `dim_*.csv` : Tables de dimensions (Temps, Client, Produit, Région, Livreur).
