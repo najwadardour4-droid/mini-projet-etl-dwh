@@ -1,0 +1,32 @@
+2026-05-11 22:11:40,749 - INFO - ============================================================
+2026-05-11 22:11:40,750 - INFO - DÉMARRAGE DU PIPELINE ETL MEXORA
+2026-05-11 22:11:40,750 - INFO - ============================================================
+2026-05-11 22:11:40,750 - INFO - --- PHASE EXTRACT ---
+2026-05-11 22:11:40,868 - INFO - [EXTRACT] Commandes: 51500 lignes extraites depuis mexora_etl/data\commandes_mexora.csv
+2026-05-11 22:11:40,871 - INFO - [EXTRACT] Produits: 100 lignes extraites depuis mexora_etl/data\produits_mexora.json
+2026-05-11 22:11:40,887 - INFO - [EXTRACT] Clients: 5050 lignes extraites depuis mexora_etl/data\clients_mexora.csv
+2026-05-11 22:11:40,930 - INFO - [EXTRACT] Régions: 8 lignes extraites depuis mexora_etl/data\regions_maroc.csv
+2026-05-11 22:11:40,931 - INFO - --- PHASE TRANSFORM ---
+2026-05-11 22:11:40,938 - INFO - [TRANSFORM] R1 doublons: 1500 lignes supprimées
+2026-05-11 22:11:42,423 - INFO - [TRANSFORM] R2 dates: 0 dates invalides supprimées
+2026-05-11 22:11:42,592 - INFO - [TRANSFORM] R5 quantités: 477 lignes supprimées (quantité <= 0)
+2026-05-11 22:11:42,622 - INFO - [TRANSFORM] R6 prix: 2429 commandes test supprimées
+2026-05-11 22:11:42,630 - INFO - [TRANSFORM] R7 livreurs: 3303 valeurs manquantes remplacées par -1
+2026-05-11 22:11:42,632 - INFO - [TRANSFORM] Commandes final: 47094 lignes
+2026-05-11 22:11:42,647 - INFO - [TRANSFORM] R1 déduplication clients: 75 doublons supprimés
+2026-05-11 22:11:42,666 - INFO - [TRANSFORM] Clients final: 4975 lignes
+2026-05-11 22:11:42,668 - INFO - [TRANSFORM] Produits final: 100 lignes
+2026-05-11 22:11:42,692 - INFO - --- CONSTRUCTION DES DIMENSIONS ---
+2026-05-11 22:11:42,734 - INFO - --- CONSTRUCTION DE LA TABLE DE FAITS ---
+2026-05-11 22:11:43,075 - INFO - --- PHASE LOAD ---
+2026-05-11 22:11:43,778 - ERROR - Erreur lors du chargement de dim_temps: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-05-11 22:11:43,779 - ERROR - Erreur de connexion DB: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-05-11 22:11:43,780 - INFO - Sauvegarde des données en local (CSV) suite à l'échec de la connexion DB...
+2026-05-11 22:11:44,113 - INFO - Données sauvegardées localement dans mexora_etl/data pour le dashboard.
+2026-05-11 22:11:44,113 - INFO - ============================================================
+2026-05-11 22:11:44,114 - INFO - PIPELINE TERMINÉ EN 0:00:03.364182
+2026-05-11 22:11:44,115 - INFO - ============================================================

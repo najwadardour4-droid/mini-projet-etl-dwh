@@ -1,0 +1,22 @@
+id_livreur,nom_livreur,type_transport,zone_couverture
+L012,Livreur L012,Moto,Nationale
+L015,Livreur L015,Moto,Nationale
+L007,Livreur L007,Moto,Nationale
+L011,Livreur L011,Moto,Nationale
+L006,Livreur L006,Moto,Nationale
+L014,Livreur L014,Moto,Nationale
+L009,Livreur L009,Moto,Nationale
+L017,Livreur L017,Moto,Nationale
+L001,Livreur L001,Moto,Nationale
+L020,Livreur L020,Moto,Nationale
+L010,Livreur L010,Moto,Nationale
+L018,Livreur L018,Moto,Nationale
+L004,Livreur L004,Moto,Nationale
+L002,Livreur L002,Moto,Nationale
+L003,Livreur L003,Moto,Nationale
+L016,Livreur L016,Moto,Nationale
+L005,Livreur L005,Moto,Nationale
+L019,Livreur L019,Moto,Nationale
+L013,Livreur L013,Moto,Nationale
+L008,Livreur L008,Moto,Nationale
+-1,Livreur Inconnu,Inconnu,Inconnu

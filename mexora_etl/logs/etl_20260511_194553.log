@@ -1,0 +1,43 @@
+2026-05-11 19:45:53,355 - INFO - ============================================================
+2026-05-11 19:45:53,440 - INFO - DÉMARRAGE DU PIPELINE ETL MEXORA
+2026-05-11 19:45:53,515 - INFO - ============================================================
+2026-05-11 19:45:53,590 - INFO - --- PHASE EXTRACT ---
+2026-05-11 19:45:53,936 - INFO - [EXTRACT] Commandes: 51500 lignes extraites depuis mexora_etl/data\commandes_mexora.csv
+2026-05-11 19:45:54,057 - INFO - [EXTRACT] Produits: 100 lignes extraites depuis mexora_etl/data\produits_mexora.json
+2026-05-11 19:45:54,258 - INFO - [EXTRACT] Clients: 5050 lignes extraites depuis mexora_etl/data\clients_mexora.csv
+2026-05-11 19:45:54,496 - INFO - [EXTRACT] Régions: 8 lignes extraites depuis mexora_etl/data\regions_maroc.csv
+2026-05-11 19:45:54,575 - INFO - --- PHASE TRANSFORM ---
+2026-05-11 19:45:54,675 - INFO - [TRANSFORM] R1 doublons: 1500 lignes supprimées
+2026-05-11 19:45:58,320 - INFO - [TRANSFORM] R2 dates: 0 dates invalides supprimées
+2026-05-11 19:45:59,651 - INFO - [TRANSFORM] R5 quantités: 477 lignes supprimées (quantité <= 0)
+2026-05-11 19:45:59,816 - INFO - [TRANSFORM] R6 prix: 2429 commandes test supprimées
+2026-05-11 19:45:59,892 - INFO - [TRANSFORM] R7 livreurs: 3303 valeurs manquantes remplacées par -1
+2026-05-11 19:45:59,965 - INFO - [TRANSFORM] Commandes final: 47094 lignes
+2026-05-11 19:46:00,051 - INFO - [TRANSFORM] R1 déduplication clients: 75 doublons supprimés
+2026-05-11 19:46:00,160 - INFO - [TRANSFORM] Clients final: 4975 lignes
+2026-05-11 19:46:00,244 - INFO - [TRANSFORM] Produits final: 100 lignes
+2026-05-11 19:46:00,366 - INFO - --- CONSTRUCTION DES DIMENSIONS ---
+2026-05-11 19:46:00,555 - INFO - --- CONSTRUCTION DE LA TABLE DE FAITS ---
+2026-05-11 19:46:01,519 - INFO - --- PHASE LOAD ---
+2026-05-11 19:46:03,458 - ERROR - Erreur lors du chargement de dim_temps: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-05-11 19:46:03,579 - ERROR - Erreur lors du chargement de dim_region: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-05-11 19:46:03,901 - ERROR - Erreur lors du chargement de dim_livreur: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-05-11 19:46:04,173 - ERROR - Erreur lors du chargement de dim_client: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-05-11 19:46:04,462 - ERROR - Erreur lors du chargement de dim_produit: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-05-11 19:46:04,718 - ERROR - Erreur lors du chargement de fait_ventes: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-05-11 19:46:04,756 - INFO - Chargement terminé avec succès dans PostgreSQL
+2026-05-11 19:46:04,846 - INFO - ============================================================
+2026-05-11 19:46:04,928 - INFO - PIPELINE TERMINÉ EN 0:00:11.490947
+2026-05-11 19:46:05,004 - INFO - ============================================================

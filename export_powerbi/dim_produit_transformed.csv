@@ -1,0 +1,101 @@
+id_produit,nom_produit,categorie,sous_categorie,marque,fournisseur,prix_standard,origine_pays,date_creation,actif,sk_produit,date_debut,date_fin,est_actuel
+P001,Centrale Danone Épicerie Model 18,Alimentation,Épicerie,Centrale Danone,Centrale Danone MENA,2101.67,USA,2024-08-04,False,1,2024-01-01,,True
+P002,Samsung Smartphones Model 18,Electronique,Smartphones,Samsung,Samsung MENA,2990.58,Morocco,2024-04-22,True,2,2024-01-01,,True
+P003,H&M Vêtements Model 11,Mode,Vêtements,H&M,H&M MENA,2340.64,USA,2024-02-17,True,3,2024-01-01,,True
+P004,Nike Chaussures Model 13,Mode,Chaussures,Nike,Nike MENA,8048.06,USA,2024-10-09,True,4,2024-01-01,,True
+P005,Cosumar Frais Model 10,Alimentation,Frais,Cosumar,Cosumar MENA,696.91,USA,2024-04-29,True,5,2024-01-01,,True
+P006,Adidas Chaussures Model 9,Mode,Chaussures,Adidas,Adidas MENA,5559.01,USA,2024-03-28,True,6,2024-01-01,,True
+P007,HP Smartphones Model 11,Electronique,Smartphones,HP,HP MENA,9603.6,USA,2024-04-27,True,7,2024-01-01,,True
+P008,Nike Chaussures Model 11,Mode,Chaussures,Nike,Nike MENA,13697.91,China,2024-09-12,True,8,2024-01-01,,True
+P009,Centrale Danone Boissons Model 19,Alimentation,Boissons,Centrale Danone,Centrale Danone MENA,8424.91,Morocco,2024-10-25,True,9,2024-01-01,,True
+P010,HP Smartphones Model 6,Electronique,Smartphones,HP,HP MENA,716.27,Morocco,2024-02-02,True,10,2024-01-01,,True
+P011,Lesieur Boissons Model 4,Alimentation,Boissons,Lesieur,Lesieur MENA,14137.04,France,2024-06-23,True,11,2024-01-01,,True
+P012,Adidas Vêtements Model 17,Mode,Vêtements,Adidas,Adidas MENA,10834.16,China,2024-09-16,True,12,2024-01-01,,True
+P013,Lesieur Boissons Model 17,Alimentation,Boissons,Lesieur,Lesieur MENA,5614.97,USA,2024-06-14,True,13,2024-01-01,,True
+P014,Sony Laptops Model 16,Electronique,Laptops,Sony,Sony MENA,8514.68,USA,2024-09-29,True,14,2024-01-01,,True
+P015,HP Accessoires Model 7,Electronique,Accessoires,HP,HP MENA,7919.83,China,2024-06-08,True,15,2024-01-01,,True
+P016,Cosumar Frais Model 11,Alimentation,Frais,Cosumar,Cosumar MENA,1823.85,USA,2024-10-10,True,16,2024-01-01,,True
+P017,Apple Smartphones Model 11,Electronique,Smartphones,Apple,Apple MENA,6960.655000000001,USA,2024-09-20,True,17,2024-01-01,,True
+P018,Centrale Danone Boissons Model 8,Alimentation,Boissons,Centrale Danone,Centrale Danone MENA,13236.92,Morocco,2024-07-27,True,18,2024-01-01,,True
+P019,HP Accessoires Model 4,Electronique,Accessoires,HP,HP MENA,12958.91,USA,2024-07-25,True,19,2024-01-01,,True
+P020,Samsung Smartphones Model 9,Electronique,Smartphones,Samsung,Samsung MENA,6734.72,Morocco,2024-05-07,True,20,2024-01-01,,True
+P021,Apple Laptops Model 3,Electronique,Laptops,Apple,Apple MENA,14989.24,China,2024-03-26,True,21,2024-01-01,,True
+P022,Adidas Vêtements Model 15,Mode,Vêtements,Adidas,Adidas MENA,42.31,France,2024-08-04,True,22,2024-01-01,,True
+P023,Lesieur Frais Model 19,Alimentation,Frais,Lesieur,Lesieur MENA,4457.65,USA,2024-06-09,False,23,2024-01-01,,True
+P024,Lesieur Boissons Model 6,Alimentation,Boissons,Lesieur,Lesieur MENA,862.62,USA,2024-02-04,True,24,2024-01-01,,True
+P025,Apple Laptops Model 3,Electronique,Laptops,Apple,Apple MENA,6960.655000000001,Morocco,2024-10-25,True,25,2024-01-01,,True
+P026,H&M Chaussures Model 10,Mode,Chaussures,H&M,H&M MENA,3991.56,Morocco,2024-06-10,True,26,2024-01-01,,True
+P027,HP Smartphones Model 17,Electronique,Smartphones,HP,HP MENA,1508.72,France,2024-03-08,True,27,2024-01-01,,True
+P028,Sony Smartphones Model 17,Electronique,Smartphones,Sony,Sony MENA,8152.84,USA,2024-10-10,True,28,2024-01-01,,True
+P029,Centrale Danone Épicerie Model 10,Alimentation,Épicerie,Centrale Danone,Centrale Danone MENA,11138.83,China,2024-06-24,True,29,2024-01-01,,True
+P030,Lesieur Boissons Model 14,Alimentation,Boissons,Lesieur,Lesieur MENA,12693.09,France,2024-01-23,False,30,2024-01-01,,True
+P031,Sony Accessoires Model 18,Electronique,Accessoires,Sony,Sony MENA,6633.11,USA,2024-02-27,False,31,2024-01-01,,True
+P032,Lesieur Épicerie Model 14,Alimentation,Épicerie,Lesieur,Lesieur MENA,5544.55,China,2024-01-22,True,32,2024-01-01,,True
+P033,Samsung Laptops Model 14,Electronique,Laptops,Samsung,Samsung MENA,5311.64,China,2024-05-01,True,33,2024-01-01,,True
+P034,Apple Laptops Model 14,Electronique,Laptops,Apple,Apple MENA,13868.06,China,2024-05-16,True,34,2024-01-01,,True
+P035,Cosumar Épicerie Model 15,Alimentation,Épicerie,Cosumar,Cosumar MENA,3344.28,France,2024-06-05,True,35,2024-01-01,,True
+P036,Apple Smartphones Model 9,Electronique,Smartphones,Apple,Apple MENA,4186.26,France,2024-09-17,True,36,2024-01-01,,True
+P037,Centrale Danone Boissons Model 9,Alimentation,Boissons,Centrale Danone,Centrale Danone MENA,14556.31,USA,2024-02-25,True,37,2024-01-01,,True
+P038,Nike Sacs Model 7,Mode,Sacs,Nike,Nike MENA,1743.53,France,2024-01-23,True,38,2024-01-01,,True
+P039,Samsung Accessoires Model 11,Electronique,Accessoires,Samsung,Samsung MENA,9966.92,USA,2024-06-02,True,39,2024-01-01,,True
+P040,Cosumar Boissons Model 13,Alimentation,Boissons,Cosumar,Cosumar MENA,1918.04,China,2024-10-18,True,40,2024-01-01,,True
+P041,Cosumar Épicerie Model 15,Alimentation,Épicerie,Cosumar,Cosumar MENA,8703.97,Morocco,2024-08-14,True,41,2024-01-01,,True
+P042,Lesieur Boissons Model 20,Alimentation,Boissons,Lesieur,Lesieur MENA,1281.09,France,2024-02-17,True,42,2024-01-01,,True
+P043,Sony Accessoires Model 16,Electronique,Accessoires,Sony,Sony MENA,376.14,USA,2024-08-21,True,43,2024-01-01,,True
+P044,Centrale Danone Frais Model 1,Alimentation,Frais,Centrale Danone,Centrale Danone MENA,6000.8,USA,2024-08-05,True,44,2024-01-01,,True
+P045,Cosumar Frais Model 15,Alimentation,Frais,Cosumar,Cosumar MENA,3745.48,China,2024-08-25,True,45,2024-01-01,,True
+P046,Cosumar Frais Model 17,Alimentation,Frais,Cosumar,Cosumar MENA,9193.66,Morocco,2024-10-07,True,46,2024-01-01,,True
+P047,HP Accessoires Model 17,Electronique,Accessoires,HP,HP MENA,12599.54,Morocco,2024-05-02,True,47,2024-01-01,,True
+P048,Sony Accessoires Model 5,Electronique,Accessoires,Sony,Sony MENA,13396.47,China,2024-07-15,True,48,2024-01-01,,True
+P049,Centrale Danone Épicerie Model 14,Alimentation,Épicerie,Centrale Danone,Centrale Danone MENA,6994.21,Morocco,2024-10-26,True,49,2024-01-01,,True
+P050,HP Accessoires Model 14,Electronique,Accessoires,HP,HP MENA,4486.2,China,2024-09-06,True,50,2024-01-01,,True
+P051,Zara Chaussures Model 15,Mode,Chaussures,Zara,Zara MENA,11974.15,China,2024-09-30,False,51,2024-01-01,,True
+P052,Zara Sacs Model 6,Mode,Sacs,Zara,Zara MENA,6434.91,USA,2024-05-13,True,52,2024-01-01,,True
+P053,Sony Laptops Model 14,Electronique,Laptops,Sony,Sony MENA,4181.07,France,2024-02-11,True,53,2024-01-01,,True
+P054,Centrale Danone Frais Model 2,Alimentation,Frais,Centrale Danone,Centrale Danone MENA,9755.66,USA,2024-05-06,True,54,2024-01-01,,True
+P055,Samsung Accessoires Model 15,Electronique,Accessoires,Samsung,Samsung MENA,1724.7,France,2024-07-07,True,55,2024-01-01,,True
+P056,Lesieur Frais Model 4,Alimentation,Frais,Lesieur,Lesieur MENA,12291.32,USA,2024-06-08,True,56,2024-01-01,,True
+P057,H&M Chaussures Model 4,Mode,Chaussures,H&M,H&M MENA,10362.31,France,2024-03-02,True,57,2024-01-01,,True
+P058,Cosumar Épicerie Model 1,Alimentation,Épicerie,Cosumar,Cosumar MENA,1043.66,Morocco,2024-09-07,True,58,2024-01-01,,True
+P059,Adidas Sacs Model 9,Mode,Sacs,Adidas,Adidas MENA,11009.59,Morocco,2024-08-26,True,59,2024-01-01,,True
+P060,Cosumar Frais Model 15,Alimentation,Frais,Cosumar,Cosumar MENA,14019.98,China,2024-08-25,True,60,2024-01-01,,True
+P061,Cosumar Boissons Model 7,Alimentation,Boissons,Cosumar,Cosumar MENA,12765.78,France,2024-05-12,True,61,2024-01-01,,True
+P062,Cosumar Frais Model 14,Alimentation,Frais,Cosumar,Cosumar MENA,2873.94,Morocco,2024-10-11,True,62,2024-01-01,,True
+P063,Lesieur Boissons Model 13,Alimentation,Boissons,Lesieur,Lesieur MENA,268.48,China,2024-06-05,True,63,2024-01-01,,True
+P064,Nike Chaussures Model 9,Mode,Chaussures,Nike,Nike MENA,4968.56,France,2024-05-08,True,64,2024-01-01,,True
+P065,Cosumar Épicerie Model 6,Alimentation,Épicerie,Cosumar,Cosumar MENA,8042.6,China,2024-04-20,True,65,2024-01-01,,True
+P066,Nike Sacs Model 10,Mode,Sacs,Nike,Nike MENA,4450.73,USA,2024-09-30,True,66,2024-01-01,,True
+P067,Sony Smartphones Model 1,Electronique,Smartphones,Sony,Sony MENA,13028.23,France,2024-08-28,True,67,2024-01-01,,True
+P068,Zara Vêtements Model 16,Mode,Vêtements,Zara,Zara MENA,1720.17,USA,2024-10-22,True,68,2024-01-01,,True
+P069,Samsung Smartphones Model 18,Electronique,Smartphones,Samsung,Samsung MENA,1286.86,Morocco,2024-04-25,True,69,2024-01-01,,True
+P070,Adidas Chaussures Model 2,Mode,Chaussures,Adidas,Adidas MENA,6438.16,USA,2024-04-16,True,70,2024-01-01,,True
+P071,Zara Sacs Model 1,Mode,Sacs,Zara,Zara MENA,2615.47,Morocco,2024-08-18,True,71,2024-01-01,,True
+P072,Zara Chaussures Model 8,Mode,Chaussures,Zara,Zara MENA,10547.78,France,2024-04-11,True,72,2024-01-01,,True
+P073,Lesieur Épicerie Model 2,Alimentation,Épicerie,Lesieur,Lesieur MENA,3991.83,China,2024-06-06,True,73,2024-01-01,,True
+P074,Cosumar Boissons Model 9,Alimentation,Boissons,Cosumar,Cosumar MENA,10333.28,Morocco,2024-08-12,False,74,2024-01-01,,True
+P075,Sony Laptops Model 19,Electronique,Laptops,Sony,Sony MENA,3441.58,USA,2024-05-17,True,75,2024-01-01,,True
+P076,HP Laptops Model 16,Electronique,Laptops,HP,HP MENA,8784.09,USA,2024-08-28,True,76,2024-01-01,,True
+P077,Zara Chaussures Model 13,Mode,Chaussures,Zara,Zara MENA,10408.17,USA,2024-08-20,False,77,2024-01-01,,True
+P078,Zara Chaussures Model 18,Mode,Chaussures,Zara,Zara MENA,7723.8,Morocco,2024-07-30,False,78,2024-01-01,,True
+P079,Lesieur Boissons Model 18,Alimentation,Boissons,Lesieur,Lesieur MENA,11402.26,China,2024-05-27,True,79,2024-01-01,,True
+P080,Centrale Danone Boissons Model 6,Alimentation,Boissons,Centrale Danone,Centrale Danone MENA,9454.03,France,2024-10-09,False,80,2024-01-01,,True
+P081,H&M Vêtements Model 5,Mode,Vêtements,H&M,H&M MENA,6927.1,Morocco,2024-05-29,True,81,2024-01-01,,True
+P082,Adidas Chaussures Model 20,Mode,Chaussures,Adidas,Adidas MENA,8273.46,China,2024-02-05,True,82,2024-01-01,,True
+P083,Nike Chaussures Model 16,Mode,Chaussures,Nike,Nike MENA,4485.35,China,2024-08-16,True,83,2024-01-01,,True
+P084,Adidas Chaussures Model 19,Mode,Chaussures,Adidas,Adidas MENA,2837.9,Morocco,2024-04-29,True,84,2024-01-01,,True
+P085,Nike Vêtements Model 5,Mode,Vêtements,Nike,Nike MENA,12173.02,Morocco,2024-01-19,True,85,2024-01-01,,True
+P086,Centrale Danone Boissons Model 5,Alimentation,Boissons,Centrale Danone,Centrale Danone MENA,7894.01,Morocco,2024-03-20,False,86,2024-01-01,,True
+P087,Adidas Chaussures Model 13,Mode,Chaussures,Adidas,Adidas MENA,12786.6,France,2024-09-06,True,87,2024-01-01,,True
+P088,Apple Accessoires Model 3,Electronique,Accessoires,Apple,Apple MENA,4317.81,Morocco,2024-02-20,True,88,2024-01-01,,True
+P089,Cosumar Épicerie Model 11,Alimentation,Épicerie,Cosumar,Cosumar MENA,6960.655000000001,USA,2024-05-30,True,89,2024-01-01,,True
+P090,H&M Vêtements Model 3,Mode,Vêtements,H&M,H&M MENA,11889.87,Morocco,2024-05-03,True,90,2024-01-01,,True
+P091,Centrale Danone Épicerie Model 15,Alimentation,Épicerie,Centrale Danone,Centrale Danone MENA,6960.655000000001,France,2024-10-06,True,91,2024-01-01,,True
+P092,Nike Chaussures Model 7,Mode,Chaussures,Nike,Nike MENA,3758.97,Morocco,2024-09-04,True,92,2024-01-01,,True
+P093,Nike Sacs Model 13,Mode,Sacs,Nike,Nike MENA,4435.51,France,2024-01-05,True,93,2024-01-01,,True
+P094,Centrale Danone Frais Model 8,Alimentation,Frais,Centrale Danone,Centrale Danone MENA,12494.26,France,2024-04-22,True,94,2024-01-01,,True
+P095,Lesieur Boissons Model 4,Alimentation,Boissons,Lesieur,Lesieur MENA,10216.02,USA,2024-06-07,True,95,2024-01-01,,True
+P096,Sony Accessoires Model 6,Electronique,Accessoires,Sony,Sony MENA,4433.71,China,2024-03-08,True,96,2024-01-01,,True
+P097,Nike Sacs Model 10,Mode,Sacs,Nike,Nike MENA,12372.1,France,2024-02-28,True,97,2024-01-01,,True
+P098,Samsung Smartphones Model 18,Electronique,Smartphones,Samsung,Samsung MENA,14699.33,France,2024-02-16,True,98,2024-01-01,,True
+P099,Apple Laptops Model 12,Electronique,Laptops,Apple,Apple MENA,10088.39,USA,2024-04-29,True,99,2024-01-01,,True
+P100,Cosumar Frais Model 10,Alimentation,Frais,Cosumar,Cosumar MENA,957.62,Morocco,2024-02-29,True,100,2024-01-01,,True
