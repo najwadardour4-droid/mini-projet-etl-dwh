@@ -81,7 +81,11 @@ Le projet utilise un **Schéma en Étoile (Star Schema)** pour optimiser les ana
 - `dim_*.csv` : Tables de dimensions (Temps, Client, Produit, Région, Livreur).
 
 *Note : Pour Power BI, il suffit de charger ces fichiers et de recréer les relations basées sur les clés (id_client, sk_produit, id_region, etc.).*
+### 🗄️ Configuration de la Base de Données
+Avant de lancer le pipeline, assurez-vous que la base de données est correctement configurée dans PostgreSQL :
 
+![Database Setup](./db_setup.png)
+*Aperçu de la structure mexora_dwh dans pgAdmin.*
 ## Choix Techniques
 
 - **Modélisation** : Schéma en étoile pour optimiser les performances des requêtes analytiques.
