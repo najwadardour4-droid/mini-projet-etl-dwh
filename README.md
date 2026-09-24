@@ -26,7 +26,7 @@ Le pipeline suit une architecture modulaire pour assurer la maintenabilité :
 
 ## 🛠️ Installation & Utilisation
 1. **Setup DB** : Créer la base `mexora_dwh` dans PostgreSQL (Image 11).
-2. **Configuration** : Créer un fichier `.env` avec vos identifiants (Ex: `DB_PASS=najwa@123`).
+2. **Configuration** : Créer un fichier `.env` avec vos identifiants (Ex: `DB_PASS=your_password`).
 3. **Run** :
    ```bash
    python mexora_etl/main.py# Mexora Analytics - Pipeline ETL & Data Warehouse
